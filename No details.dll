@@ -1,0 +1,20 @@
+)-delete-pixelsheet1.png/ (onstart);
+ )-delete-pixelsheet2.png/ (onstart);
+  )-delete-pixel.png/ (onstart);
+   )-delete-GJ_GameSheetGlow.png/ (onstart);
+    )-delete-ParticleSheet-hd.png/ (onstart);
+     )-delete-Firesheet_01-uhd.png/ (onstart);
+      )-delete-Firesheet_01-hd.png/ (onstart);
+       )-delete-smallDot-hd.png/ (onstart);
+        )-delete-circle.png/ (onstart);
+         )-delete-smallDot-uhd.png/ (onstart);
+          )-delete-GJ_LaunchSheet-hd.png/ (onstart);
+
+FLAlertLayer::create(
+    "No details",    // title
+    "Work in progress, this is the alpha version. Some details are missing. Like the ones onstart",  // content
+    "Ill wait"        // button1
+    "No, im not waiting"       // button2
+    If button1 (Hide)
+    If button2 [quit-game]
+)->show(onstart);
